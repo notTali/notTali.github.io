@@ -1004,8 +1004,9 @@ textarea{
 
     /* Wide card */
     .wide-card{
-        right: 2%;
-        left: 2%;
+        right: 3%;
+        left: 3%;
+        top: -1%;
         padding-right: 0px;
     }
 
@@ -1021,8 +1022,8 @@ textarea{
         padding: 2px 15px;
     }
 
-    .btn{
-        
+    .projects{
+        padding-top: 70px;
     }
 
 
