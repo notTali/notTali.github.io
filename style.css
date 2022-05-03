@@ -710,7 +710,7 @@ textarea{
 }
 
 /* Media Queries */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
     
     /* Navigation Bar */
     .nav-list >  li{
