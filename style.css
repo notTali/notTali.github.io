@@ -915,9 +915,7 @@ textarea{
     }
 
     .header-wrapper{
-        
         grid-template-areas:
-        
         "header-content";
         grid-gap: 0px;
         padding-bottom: 50px;
@@ -1001,6 +999,26 @@ textarea{
     }
     .skills-wrapper .skills-tittles{
         margin-bottom: 0px;
+    }
+
+    .skill li img{
+        width: 30px;
+        height: 30px;
+    }
+    .skill li p{
+        display: none;
+        /* width: 20px;
+        height: 20px; */
+    }
+
+    .skill li{
+        width: fit-content;
+        height: fit-content;
+        padding: 30px;
+    }
+
+    .skills-wrapper{
+        grid-template-columns: 1fr;
     }
 
     .contact-wrapper{
