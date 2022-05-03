@@ -989,19 +989,20 @@ textarea{
         "skills-list" 
         "experiences";
 
-        grid-gap: 50px;
+        grid-gap: 70px;
     }
 
     .experiences{
-        margin-top: 10px;
     }
-    .skills-tittles{
+    .skills-wrapper .skills-tittles{
         margin-bottom: 0px;
     }
 
     .contact-wrapper{
         grid-template-columns: 1fr;
     }
+
+
 
 }
 
