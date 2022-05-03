@@ -988,6 +988,15 @@ textarea{
         "skills-tittles"
         "skills-list" 
         "experiences";
+
+        grid-gap: 50px;
+    }
+
+    .experiences{
+        margin-top: 10px;
+    }
+    .skills-tittles{
+        margin-bottom: 0px;
     }
 
     .contact-wrapper{
