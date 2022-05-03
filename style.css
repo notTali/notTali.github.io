@@ -910,8 +910,21 @@ textarea{
         --site-width: 90%;
     }
 
+    .header-wrapper{
+        
+        grid-template-areas:
+        
+        "header-content";
+        grid-gap: 0px;
+        padding-bottom: 50px;
+    }
+
     .social-links{
         display: none;
+    }
+
+    .fa-bars{
+        color: var(--secondary);
     }
 
     nav{
@@ -928,6 +941,13 @@ textarea{
 
     .header-content{
         padding-top: 70px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "intro" 
+        "picture";
+        /* align-content: center; */
+        /* grid-template-rows: 1fr 1fr; */
     }
 
     .nav-wrapper{
@@ -938,7 +958,30 @@ textarea{
         position: relative;
     }
 
-   
+    .tittle-left, .subtittle-left, .tittle-right, .subtittle-right{
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .picture{
+        background-position: center;
+        /* border: 1px solid #1C3342; */
+        margin-top: 50px;
+    }
+
+    .intro h1{
+        font-size: 2.4rem;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .intro p{
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .intro .buttons{
+        text-align: center;
+    }
 
     .skills-wrapper{
         grid-template-areas:
