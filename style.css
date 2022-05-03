@@ -1002,6 +1002,29 @@ textarea{
         grid-template-columns: 1fr;
     }
 
+    /* Wide card */
+    .wide-card{
+        right: 2%;
+        left: 2%;
+        padding-right: 0px;
+    }
+
+    .left i {
+        font-size: 2rem;
+    }
+    .left div h2 {
+        font-size: 0.8rem;
+    }
+
+    .wide-card .btn{
+        display: none;
+        padding: 2px 15px;
+    }
+
+    .btn{
+        
+    }
+
 
 
 }
