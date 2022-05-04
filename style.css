@@ -918,7 +918,7 @@ textarea{
         grid-template-areas:
         "header-content";
         grid-gap: 0px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
 
     .social-links{
@@ -943,7 +943,7 @@ textarea{
 
     .header-content{
         padding-top: 70px;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "intro" 
