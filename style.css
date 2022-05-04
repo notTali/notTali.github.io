@@ -101,7 +101,7 @@ a{
     position: relative;
     font-size: large;
     font-weight: 500px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-bottom: 0px;
     display: grid;
     grid-row-gap: 100px;
@@ -977,11 +977,14 @@ textarea{
 
     .header-content{
         padding-top: 0px;
-        grid-template-rows: 1fr;
+        display: flex;
+        flex-direction: column;
+        grid-template-areas: none;
+        /* grid-template-rows: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "intro" 
-        "picture";
+        "intro" ; */
+        /* "picture"; */
 
     }
 
@@ -1095,17 +1098,9 @@ textarea{
 }
 
 /* iPhone SE */
-@media screen and (max-width: 380px) {
-    .contact-wrapper{
-        grid-template-columns: 1fr;
-    }
-
-    /* Wide card */
-    .wide-card{
-        right: 3%;
-        left: 3%;
-        top: -1.4%;
-        padding-right: 0px;
+@media screen and (max-width: 389px) {
+    .header-content{
+        flex-direction: column-reverse;
     }
 
 }
