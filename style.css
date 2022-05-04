@@ -918,9 +918,9 @@ textarea{
     }
 
     .scroll-top{
-        bottom: 1;
-        left: 0;
-        margin-left: 30px;
+        bottom: 120px;
+        left: 30px;
+        /* margin-left: ; */
         padding: 2% 2.2%;
         font-size: 1rem;
         text-align: center;
@@ -990,7 +990,7 @@ textarea{
     }
 
     .intro{
-        
+
     }
 
     .intro h1{
