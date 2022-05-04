@@ -29,7 +29,12 @@ body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+.social-links i{
+    color: var(--secondary);
+}
+
 .social-links{
+    
     z-index: 10;
     position: fixed;
     padding: 0px;
@@ -43,10 +48,10 @@ body{
 
 .social-links i{
     font-size: 3rem;
-    
 }
 
 .social-links li{
+    color: var(--secondary);
     /* width: 0px; */
     display: flex; 
     justify-content: flex-end;
@@ -119,7 +124,9 @@ nav{
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.01);
 }
 
-
+#top-menu-bars{
+    display: none;
+}
 
 nav > h1{
     font-weight: bolder;
@@ -606,6 +613,10 @@ nav > h1{
     padding: 100px 0px;
 }
 
+.contact-info i{
+    color: var(--secondary);
+}
+
 .contact-wrapper{
     width: var(--site-width);
     max-width: var(--site-max-width);
@@ -917,6 +928,10 @@ textarea{
         --site-width: 90%;
     }
 
+    #top-menu-bars{
+        display: block;
+    }
+
     .scroll-top{
         bottom: 120px;
         left: 30px;
@@ -989,10 +1004,6 @@ textarea{
         margin-top: 50px;
     }
 
-    .intro{
-
-    }
-
     .intro h1{
         padding: 15% 0px;
         font-size: 2.8rem;
@@ -1017,9 +1028,7 @@ textarea{
         grid-gap: 70px;
         padding-bottom: 90px;
     }
-
-    .experiences{
-    }
+    
     .skills-wrapper .skills-tittles{
         margin-bottom: 0px;
     }
@@ -1030,8 +1039,6 @@ textarea{
     }
     .skill li p{
         display: none;
-        /* width: 20px;
-        height: 20px; */
     }
 
     .skill li{
@@ -1070,6 +1077,19 @@ textarea{
 
     .projects{
         padding-top: 90px;
+    }
+
+    .contact-info .heading{
+        padding-bottom: 20px;
+    }
+
+    .contact-info .more{
+        margin-top: 20px;
+    }
+
+    .contact-info .socials{
+        margin-top: 20px;
+        justify-content: center;
     }
 
 }
