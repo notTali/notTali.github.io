@@ -369,7 +369,7 @@ nav > h1{
 
 .skill li{
     background: #f1dded;
-    /* border: 10px solid rgba(250, 199, 240, 0.13); */
+    border: 10px solid rgba(235, 70, 202, 0.13);
     border-radius: 100%;
     display: flex;
     flex-direction: column;
@@ -394,6 +394,7 @@ nav > h1{
     color: var(--secondary);
     border-radius: 100%;
     transition: 1.5s;
+    z-index: 100;
 }
 
 .projects{
@@ -418,7 +419,6 @@ nav > h1{
     align-items: flex-end;
     grid-row-gap: 60px;
     
-
 }
 
 .filter-menu i{
@@ -917,6 +917,17 @@ textarea{
         --site-width: 90%;
     }
 
+    .scroll-top{
+        bottom: 1;
+        left: 0;
+        margin-left: 30px;
+        padding: 2% 2.2%;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 10px;
+        transition: none;
+    }
+
     .buttons a{
         padding: 6px 20px;
     }
@@ -976,6 +987,10 @@ textarea{
         background-position: center;
         /* border: 1px solid #1C3342; */
         margin-top: 50px;
+    }
+
+    .intro{
+        
     }
 
     .intro h1{
