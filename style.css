@@ -104,6 +104,7 @@ a{
     "nav"
     "header-content";
     background-color: var(--home-bg-color);
+    height: 100vh;
 }
 
 
@@ -174,7 +175,7 @@ nav > h1{
 .header-content{
     padding-top: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* 1fr 1fr to show the picture*/
     grid-area: header-content;
     grid-template-areas: 
     "intro picture"
@@ -942,14 +943,13 @@ textarea{
     }
 
     .header-content{
-        padding-top: 70px;
+        padding-top: 0px;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "intro" 
         "picture";
-        /* align-content: center; */
-        /* grid-template-rows: 1fr 1fr; */
+
     }
 
     .nav-wrapper{
@@ -972,7 +972,8 @@ textarea{
     }
 
     .intro h1{
-        font-size: 2.4rem;
+        padding: 15% 0px;
+        font-size: 2.5rem;
         letter-spacing: 2px;
         text-align: center;
     }
