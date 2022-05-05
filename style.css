@@ -18,6 +18,10 @@
     --particles-color2: #f5b1c2;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* remove all the default margins */
 *{
     box-sizing: border-box;
