@@ -345,12 +345,6 @@ nav > h1{
     display: none;
 }
 
-.skill li{
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
-}
-
 .skills-list{
     grid-area: skills-list;
 }
@@ -410,8 +404,17 @@ nav > h1{
     justify-content: space-evenly;
     align-items: center;
     margin: 1%;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    transition-property: border-radius;
+    transition: 1s;
     /* width: 115px;
     height: 115px; */
+}
+
+.skill li:hover{
+    border-radius: 100%;
 }
 
 .skill li:nth-child(odd){
@@ -1065,19 +1068,6 @@ textarea{
         margin-bottom: 0px;
     }
     
-    .skill li img{
-        width: 30px;
-        height: 30px;
-    }
-    .skill li p{
-        display: none;
-    }
-
-    .skill li{
-        width: fit-content;
-        height: fit-content;
-        padding: 30px;
-    }
 
     .skills-wrapper{
         grid-template-columns: 1fr;
