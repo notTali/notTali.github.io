@@ -105,12 +105,9 @@ a{
     position: relative;
     font-size: large;
     font-weight: 500px;
-    /* padding-top: 20px; */
     padding-bottom: 0px;
     display: grid;
-    /* grid-row-gap: 100px; */
     grid-template-areas: 
-    "nav"
     "header-content";
     background-color: var(--home-bg-color);
     height: 100vh;
@@ -121,7 +118,7 @@ a{
 /* THe navigation bar */
 nav > img{
     height: 100%;
-    width: 100px;
+    width: 75px;
     background-size: cover;
 }
 
