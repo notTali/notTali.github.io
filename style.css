@@ -126,13 +126,17 @@ nav > img{
 }
 
 nav{
+    position: fixed;
     grid-area: nav;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
-    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.01);
+    padding: 20px 7%;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
     background-color: var(--background);
+    z-index: 10;
+    left: 0;
+    right: 0;
 }
 
 #top-menu-bars{
@@ -973,6 +977,12 @@ textarea{
 
     .fa-bars{
         color: var(--secondary);
+    }
+
+    nav > img{
+        height: 100%;
+        width: 70px;
+        background-size: cover;
     }
 
     nav{
