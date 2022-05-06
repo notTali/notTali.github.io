@@ -108,7 +108,7 @@ a{
     /* padding-top: 20px; */
     padding-bottom: 0px;
     display: grid;
-    grid-row-gap: 100px;
+    /* grid-row-gap: 100px; */
     grid-template-areas: 
     "nav"
     "header-content";
@@ -119,6 +119,12 @@ a{
 
 
 /* THe navigation bar */
+nav > img{
+    height: 100%;
+    width: 100px;
+    background-size: cover;
+}
+
 nav{
     grid-area: nav;
     display: flex;
@@ -126,11 +132,13 @@ nav{
     align-items: center;
     padding: 20px 0px;
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.01);
+    background-color: var(--background);
 }
 
 #top-menu-bars{
     display: none;
 }
+
 
 nav > h1{
     font-weight: bolder;
