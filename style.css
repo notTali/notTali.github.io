@@ -337,6 +337,20 @@ nav > h1{
 
 }
 
+.skill li img{
+    width: 50px;
+    height: 50px;
+}
+.skill li p{
+    display: none;
+}
+
+.skill li{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
 .skills-list{
     grid-area: skills-list;
 }
@@ -389,15 +403,15 @@ nav > h1{
 
 .skill li{
     background: #f1dded;
-    border: 10px solid rgba(235, 70, 202, 0.13);
-    border-radius: 100%;
+    border: 5px solid rgba(43, 7, 36, 0.12);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 1%;
-    width: 115px;
-    height: 115px;
+    /* width: 115px;
+    height: 115px; */
 }
 
 .skill li:nth-child(odd){
