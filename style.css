@@ -118,7 +118,7 @@ a{
 /* THe navigation bar */
 nav > img{
     height: 100%;
-    width: 75px;
+    width: 80px;
     background-size: cover;
 }
 
@@ -129,7 +129,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 5px 7%;
-    box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     background-color: var(--background);
     z-index: 10;
     left: 0;
