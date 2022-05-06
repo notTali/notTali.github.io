@@ -194,13 +194,14 @@ nav > h1{
 /* Header Content */
 .header-content{
     padding-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 1fr 1fr to show the picture*/
+    display: flex;
+    text-align: center;
+    grid-template-columns: 1fr; /* 1fr 1fr to show the picture*/
     grid-area: header-content;
-    grid-template-areas: 
-    "intro picture"
-    ;
-    grid-gap: 0px;
+    /* grid-template-areas: 
+    none
+    ; */
+    /* grid-gap: 0px; */
     transition-property: grid-template-columns;
     transition-delay: 5s;
 
@@ -215,7 +216,7 @@ nav > h1{
 }
 
 .picture{
-    display: block;
+    display: none;
     grid-area: picture;
     /* position: relative; */
     padding: 0px;
@@ -776,8 +777,8 @@ textarea{
 
     .header-content{
         padding-top: 20px;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 20px;
+        /* grid-template-columns: 1fr; */
+        /* grid-gap: 20px; */
     }
 
     .intro{
@@ -890,7 +891,7 @@ textarea{
     
     .header-content{
         
-        grid-template-columns: 2fr 1fr;
+        /* grid-template-columns: 2fr 1fr; */
         
     }
 
@@ -1034,6 +1035,7 @@ textarea{
     }
     
     .picture{
+        display: none;
         background-position: center;
         /* border: 1px solid #1C3342; */
         /* margin-top: 50px; */
