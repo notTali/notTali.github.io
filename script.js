@@ -10,12 +10,12 @@ window.onload = function() {
 };
 
 
-const main_menu = document.querySelector("#top-menu-bars");
+// const main_menu = document.querySelector("#top-menu-bars");
 
 
-const showmenu = () => {
-  change_nav_color = document.querySelector("nav");
-  console.log(change_nav_color.style.backgroundColor = "pink");
-}
+// const showmenu = () => {
+//   change_nav_color = document.querySelector("nav");
+//   console.log(change_nav_color.style.backgroundColor = "pink");
+// }
 
-main_menu.addEventListener("click", showmenu);
+// main_menu.addEventListener("click", showmenu);
