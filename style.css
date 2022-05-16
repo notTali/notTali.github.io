@@ -200,7 +200,6 @@ nav > h1{
     /* grid-template-columns: 1fr; 1fr 1fr to show the picture */
     grid-area: header-content;
    
-    /* grid-gap: 0px; */
     transition-property: grid-template-columns;
     transition-delay: 5s;
 
@@ -219,9 +218,7 @@ nav > h1{
     grid-area: picture;
     /* position: relative; */
     padding: 0px;
-    background: url(./assets/i13.png) right / contain no-repeat;
-    /* border: 2px dashed #1C3342; */
-   
+    background: url(./assets/i13.png) right / contain no-repeat;   
 }
 
 
