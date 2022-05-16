@@ -199,9 +199,7 @@ nav > h1{
     text-align: center;
     /* grid-template-columns: 1fr; 1fr 1fr to show the picture */
     grid-area: header-content;
-    /* grid-template-areas: 
-    none
-    ; */
+   
     /* grid-gap: 0px; */
     transition-property: grid-template-columns;
     transition-delay: 5s;
