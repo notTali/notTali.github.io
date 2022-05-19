@@ -234,7 +234,6 @@ nav > h1{
     color: var(--secondary);
     font-weight: 600;
     letter-spacing: 2px;
-    /* line-height: 32px; */
 }
 
 .welcome .tittle-left, .welcome .subtittle-left{ 
