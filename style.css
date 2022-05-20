@@ -278,7 +278,6 @@ nav > h1{
     width: 70%;
     top: 0;
     right: 0;
-    /* border: 2px dashed #1C3342; */
     background: url(./assets/circle-scatter.svg) right / cover no-repeat;
    
 }
