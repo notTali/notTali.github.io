@@ -951,6 +951,20 @@ textarea{
 
 }
 
+@media screen and (max-width: 830px) {
+    :root{
+        --site-width: 90%;
+    }
+    #top-menu-bars{
+        display: block;
+    }
+    .fa-bars{
+        color: var(--secondary);
+    }
+
+}
+
+
 /* Samsung Galaxy A51/71 */
 @media screen and (max-width: 420px) {
     
