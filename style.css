@@ -975,6 +975,13 @@ textarea{
     }
 }
 
+@media screen and (max-width: 550px) {
+    body{
+        width: ;
+    }
+   
+}
+
 .fa-bars{
     font-size: 1.6rem;
     color: var(--secondary);
