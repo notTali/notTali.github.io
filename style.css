@@ -976,8 +976,82 @@ textarea{
 }
 
 @media screen and (max-width: 550px) {
-    body{
-        width: ;
+    .skills-wrapper{
+        grid-template-areas: 
+            "skills-tittles"
+            "skills-list" 
+            "experiences"
+        ;
+        grid-template-columns: none;
+        grid-row-gap: 50px;
+    }
+/* Wide card */
+    .wide-card{
+        right: 3%;
+        left: 3%;
+        top: -1%;
+        padding-right: 0px;
+    }
+
+    .left i {
+        font-size: 2rem;
+    }
+    .left div h2 {
+        font-size: 0.8rem;
+    }
+
+    .wide-card .btn{
+        display: none;
+        padding: 2px 15px;
+    }
+    /* Wide card */
+    .wide-card{
+        right: 3%;
+        left: 3%;
+        top: -1%;
+        padding-right: 0px;
+    }
+
+    .left i {
+        font-size: 2rem;
+    }
+    .left div h2 {
+        font-size: 0.8rem;
+    }
+
+    .wide-card .btn{
+        display: none;
+        padding: 2px 15px;
+    }
+  /* Wide card */
+  .wide-card {
+      right: 3%;
+      left: 3%;
+      top: -1%;
+      padding-right: 0px;
+  }
+
+  .left i {
+      font-size: 2rem;
+  }
+
+  .left div h2 {
+      font-size: 0.8rem;
+  }
+
+  .wide-card .btn {
+      display: none;
+      padding: 2px 15px;
+  }
+    
+    .contact-wrapper{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .contact-info .socials{
+        display: flex;
+        justify-content: center;
     }
    
 }
