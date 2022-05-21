@@ -963,6 +963,16 @@ textarea{
         display: none;
     }
 
+    nav > img{
+        height: 100%;
+        width: 90px;
+        background-size: cover;
+    }
+
+    nav{
+        padding: 10px 25px;
+        
+    }
 }
 
 .fa-bars{
