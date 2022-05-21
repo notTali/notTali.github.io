@@ -958,10 +958,16 @@ textarea{
     #top-menu-bars{
         display: block;
     }
-    .fa-bars{
-        color: var(--secondary);
+   
+    .nav-wrapper{
+        display: none;
     }
 
+}
+
+.fa-bars{
+    font-size: 1.6rem;
+    color: var(--secondary);
 }
 
 
