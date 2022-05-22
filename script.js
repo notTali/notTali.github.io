@@ -31,20 +31,55 @@ const anchor = nav_drawer.querySelectorAll(".nav-list > a");
 // Hide the nav at start
 nav_drawer.style.display = "none";
 nav_hider.style.display = "none";
+var isOpen = false;
 
 //If the shadow is clicked, hide the nav
 nav_hider.addEventListener("click", () =>{
   nav_drawer.style.display = "none";
   nav_hider.style.display = "none";
+  isOpen = false;
 });
 
 
 
+
+//DIsplay the drawer of click
 main_menu.addEventListener("click", function(){
   nav_drawer.style.display = "flex";
   nav_hider.style.display = "block";
+  isOpen = true;
   //stopScroll();
 });
+
+
+console.log(isOpen);
+// When user click on any anchor tag, close the drawer
+for (const a in anchor) {
+  //console.log("equal");
+  anchor[0].addEventListener("click", () =>{
+    nav_drawer.style.display = "none";
+    nav_hider.style.display = "none";
+  });
+  anchor[1].addEventListener("click", () =>{
+    nav_drawer.style.display = "none";
+    nav_hider.style.display = "none";
+  });
+  anchor[2].addEventListener("click", () =>{
+    nav_drawer.style.display = "none";
+    nav_hider.style.display = "none";
+  });
+  anchor[3].addEventListener("click", () =>{
+    nav_drawer.style.display = "none";
+    nav_hider.style.display = "none";
+  });
+  anchor[4].addEventListener("click", () =>{
+    nav_drawer.style.display = "none";
+    nav_hider.style.display = "none";
+  });
+ 
+}
+
+
 
 const  stopScroll = function (){
   body.style.overflow = "hidden";
