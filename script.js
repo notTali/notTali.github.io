@@ -23,4 +23,8 @@ window.onload = function() {
 const nav_drawer = document.querySelector(".nav-drawer");
 const nav_hider = document.querySelector(".shade");
 
-
+//If the shadow is clicked, hide the nav
+nav_hider.addEventListener("click", () =>{
+  const hide = nav_drawer.style.display = "none";
+  nav_hider.style.display = "none";
+});
