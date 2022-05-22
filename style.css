@@ -945,6 +945,8 @@ textarea{
 
 }
 
+
+/* Design a nav drawer for this screen and all the lower size screens */
 @media screen and (max-width: 830px) {
     :root{
         --site-width: 90%;
