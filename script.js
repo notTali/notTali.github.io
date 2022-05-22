@@ -19,3 +19,8 @@ window.onload = function() {
 // }
 
 // main_menu.addEventListener("click", showmenu);
+
+const nav_drawer = document.querySelector(".nav-drawer");
+const nav_hider = document.querySelector(".shade");
+
+
