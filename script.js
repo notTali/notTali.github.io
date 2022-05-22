@@ -23,6 +23,7 @@ window.onload = function() {
 const main_menu = document.querySelector("#top-menu-bars");
 const nav_drawer = document.querySelector(".nav-drawer");
 const nav_hider = document.querySelector(".shade");
+const body = document.querySelector("body");
 
 // Hide the nav at start
 nav_drawer.style.display = "none";
@@ -34,8 +35,24 @@ nav_hider.addEventListener("click", () =>{
   nav_hider.style.display = "none";
 });
 
+
+
 main_menu.addEventListener("click", function(){
-  nav_drawer.style.display = "block";
+  nav_drawer.style.display = "flex";
   nav_hider.style.display = "block";
+  //stopScroll();
 });
 
+const  stopScroll = function (){
+  body.style.overflow = "hidden";
+  body.style.height = "100%";
+  body.style.margin = "0";
+}
+
+
+// html,
+//     body {
+//         margin: 0;
+//         height: 100%;
+//         overflow: hidden
+//     }
