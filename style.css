@@ -994,6 +994,7 @@ textarea{
         width: 100%;
         padding-bottom: 1rem;
         border-bottom: 2px solid grey;
+        text-align: center;
     }
 
     .name-logo > h1{
@@ -1031,17 +1032,6 @@ textarea{
         text-align: center;
         font-size: 1.5rem;
     }
-
-
-    /* To lock scroll */
-    /* html,
-    body {
-        margin: 0;
-        height: 100%;
-        overflow: hidden
-    }  */
-
-
 
     :root{
         --site-width: 90%;
