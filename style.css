@@ -997,7 +997,7 @@ textarea{
         align-items: center;
         width: 100%;
         padding-bottom: 1rem;
-        border-bottom: 2px solid grey;
+        border-bottom: 1px solid grey;
         text-align: center;
     }
     
@@ -1041,11 +1041,11 @@ textarea{
     } */
 
     .theming{
-        padding-top: 2rem;
-        border-top: 2px solid gray;
+        padding-top: 0.5rem;
+        border-top: 1px solid gray;
         width: 100%;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     :root{
@@ -1089,6 +1089,33 @@ textarea{
     .wide-card .btn {
         padding: 2px 15px;
     }
+
+    /* Theme Buttons */
+    .theming > div{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .circle{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        margin: 5px;
+    }
+    .dark{
+        background-color: var(--secondary);
+    }
+    .light{
+        background-color: var(--background);
+    }
+    .purple{
+        background-color: #770286;
+    }
+    .blue{
+        background-color: var(--primary);
+    }
+
 }
 
 @media screen and (max-width: 550px) {
