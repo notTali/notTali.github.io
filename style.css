@@ -400,9 +400,8 @@ body .shade,
 }
 
 .skill li{
-    background: #f1dded;
-    border: 5px solid rgba(43, 7, 36, 0.12);
-    border-radius: 10px;
+    background: white;
+    border: 1px solid rgba(228, 34, 189, 0.12);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -411,19 +410,16 @@ body .shade,
     width: fit-content;
     height: fit-content;
     padding: 20px;
-    transition-property: border-radius;
-    transition: 1s;
-    /* width: 115px;
-    height: 115px; */
+    border-radius: 100%;
 }
 
 .skill li:hover{
     border-radius: 100%;
 }
 
-.skill li:nth-child(odd){
-    background: #d8eff1;
-}
+/* .skill li:nth-child(odd){
+    background: #eef7f8;
+} */
 
 .scroll-top{
     position: fixed;
