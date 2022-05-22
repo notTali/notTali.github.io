@@ -1018,6 +1018,12 @@ textarea{
         padding-bottom: 1.2rem;
         /* color: #eaeef0; */
     }
+    .nav-drawer .nav-menu > ul > a > li{
+        font-size: 1.5rem;
+        /* padding-bottom: 1.2rem; */
+        /* color: #eaeef0; */
+    }
+
     .theming{
         padding-top: 2rem;
         border-top: 2px solid gray;
