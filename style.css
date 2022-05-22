@@ -956,13 +956,13 @@ textarea{
         bottom: 0;
         right: 0;
         left: 25%;
-        background-color: #d8eff1;
+        background-color: var(--card-bg-color);
         z-index: 150;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
-        padding: 2rem 1rem;
+        padding: 2rem 0rem;
         max-height: 100vh;
     }
     .name-logo > img {
@@ -973,7 +973,10 @@ textarea{
     .name-logo{
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid grey;
     }
 
     .name-logo > h1{
@@ -982,7 +985,28 @@ textarea{
 
     .nav-drawer ul{
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
+    }
+    .nav-drawer .nav-menu{
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex: 2;
+        width: 100%;
+        /* background-color: #1C3342; */
+    }
+    .nav-drawer .nav-menu > ul > a > li > h3{
+        font-size: 1.5rem;
+        padding-bottom: 1.2rem;
+        /* color: #eaeef0; */
+    }
+    .theming{
+        padding-top: 2rem;
+        border-top: 2px solid gray;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
     }
 
 
