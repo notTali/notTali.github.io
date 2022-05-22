@@ -190,6 +190,10 @@ nav > h1{
     color: var(--primary);
 }
 
+body .shade,
+.nav-drawer {
+    display: none;
+}
 
 /* Header Content */
 .header-content{
