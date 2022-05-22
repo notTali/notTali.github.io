@@ -1009,6 +1009,34 @@ textarea{
         display: flex;
         justify-content: center;
     }
+    /* Wide card */
+    .wide-card {
+        right: 3%;
+        left: 3%;
+        top: -1%;
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+
+    .left i {
+        font-size: 0.5rem;
+        padding-right: 5px;
+    }
+
+    .left div h2 {
+        font-size: 0.6rem;
+        
+    }
+
+    .left div{
+        /* font-size: 0.6rem; */
+        padding-left: 8px;
+    }
+
+    .wide-card .btn {    
+        /* display: none;     */
+        padding: 2px 8px;
+    }
    
 }
 
