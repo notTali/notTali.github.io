@@ -24,6 +24,9 @@ const main_menu = document.querySelector("#top-menu-bars");
 const nav_drawer = document.querySelector(".nav-drawer");
 const nav_hider = document.querySelector(".shade");
 const body = document.querySelector("body");
+const anchor = nav_drawer.querySelectorAll(".nav-list > a");
+
+// console.log(anchor[3].attributes);
 
 // Hide the nav at start
 nav_drawer.style.display = "none";
