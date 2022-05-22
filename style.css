@@ -997,9 +997,9 @@ textarea{
         text-align: center;
     }
     
-    .nav-list > a > .call {
-        
-        width: 90%;
+    .nav-list > a{
+        text-align: center;
+        width: 100%;
     }
 
     .name-logo > h1{
@@ -1021,13 +1021,14 @@ textarea{
     }
     .nav-drawer .nav-menu > ul > a > li > h3{
         font-size: 1.5rem;
-        padding-bottom: 1.2rem;
-        /* color: #eaeef0; */
     }
     .nav-drawer .nav-menu > ul > a > li{
         font-size: 1.5rem;
-        /* padding-bottom: 1.2rem; */
-        /* color: #eaeef0; */
+        padding: 5px 0px;
+        margin: 0px;
+        margin: 0px 20px;
+        margin-right: 30px;
+        justify-content: center;
     }
 
     .theming{
