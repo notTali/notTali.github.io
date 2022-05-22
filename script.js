@@ -20,11 +20,22 @@ window.onload = function() {
 
 // main_menu.addEventListener("click", showmenu);
 
+const main_menu = document.querySelector("#top-menu-bars");
 const nav_drawer = document.querySelector(".nav-drawer");
 const nav_hider = document.querySelector(".shade");
 
+// Hide the nav at start
+nav_drawer.style.display = "none";
+nav_hider.style.display = "none";
+
 //If the shadow is clicked, hide the nav
 nav_hider.addEventListener("click", () =>{
-  const hide = nav_drawer.style.display = "none";
+  nav_drawer.style.display = "none";
   nav_hider.style.display = "none";
 });
+
+main_menu.addEventListener("click", function(){
+  nav_drawer.style.display = "block";
+  nav_hider.style.display = "block";
+});
+
