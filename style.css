@@ -965,7 +965,8 @@ textarea{
         top: 0;
         bottom: 0;
         right: 0;
-        left: 25%;
+        width: 75vw;
+        /* left: 25%; */
         background-color: var(--card-bg-color);
         z-index: 150;
         display: flex;
@@ -974,6 +975,9 @@ textarea{
         justify-content: space-between;
         padding: 2rem 0rem;
         max-height: 100vh;
+        transition-property: width;
+        transition-duration: 5s;
+        transition-delay: 1.5s;
 
         /* box-shadow: -500px 3px 0px 0px rgba(0,0,0,0.4); */
         /* -webkit-box-shadow: -200px 3px 5px -5px rgba(0,0,0,0.4); */
