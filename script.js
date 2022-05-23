@@ -4,7 +4,7 @@ window.onload = function() {
       color: ['#b1dcf5','#f5b1c2'],
       connectParticles: true,
       maxParticles: 50,
-      sizeVariations: 30,
+      // sizeVariations: 10,
       speed: 0.7,
     });
 };
