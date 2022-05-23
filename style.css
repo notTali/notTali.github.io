@@ -957,7 +957,7 @@ textarea{
         right: 0;
         left: 0;
         height: 100vh;
-        background-color: rgb(28, 44, 54, 0.6);
+        /* background-color: rgb(28, 44, 54, 0.6); */
 
     }
 

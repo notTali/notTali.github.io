@@ -1,21 +1,29 @@
 :root{
-    --background: #021a25;
-    --background-odd: #021a25;
-    --background-even: #021a25;
-    --card-bg-color: #0f2935;
+    --background: #000000;
+    --background-odd: #101113;
+    --background-even: var(--background-odd);
+    --card-bg-color: #181b1d;
     /* --surface: #531c06; */
     --home-bg-color: rgba(0, 0, 0, 0.5);
-    --primary: #13580a;
+    --primary: #def3f2;
     --secondary: #b82035;
-    --onBackground: #021a25;
+    --onBackground: #c4c70b;
     --onSurface:var(--secondary);
     --onPrimary:var(--secondary);
     --onSecondary:var(--surface);
     --light-text: #f0dee1;
-    /* --light-text: #eaf0f3; */
     --site-width: 75%;
     --site-max-width: 1100px;
     --particles-color1: #2ca5eb;
     --particles-color2: #f02054;
     --particles-color3: #75081f;
+}
+
+body{
+    color: var(--light-text);
+}
+
+footer {
+    background-color: var(--background);
+    color: var(--light-text);
 }
