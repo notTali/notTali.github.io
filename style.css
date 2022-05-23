@@ -171,7 +171,7 @@ nav > h1{
 
 /* Contact number */
 .nav-list > a > .call > i {
-    color: var(--surface);
+    color: var(--primary);
 }
 
 .nav-list > a > .call{
@@ -435,7 +435,9 @@ body .shade,
 .projects{
     /* transition: 1.5s; */
     background-color: var(--background-odd);
-    padding: 120px 0px;
+    /* padding: 120px 0px; */
+    padding: 0px;
+    padding-top: 120px;
     position: relative;
 }
 
