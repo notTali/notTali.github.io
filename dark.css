@@ -1,0 +1,21 @@
+:root{
+    --background: #021a25;
+    --background-odd: #021a25;
+    --background-even: #021a25;
+    --card-bg-color: #0f2935;
+    /* --surface: #531c06; */
+    --home-bg-color: rgba(0, 0, 0, 0.5);
+    --primary: #13580a;
+    --secondary: #b82035;
+    --onBackground: #021a25;
+    --onSurface:var(--secondary);
+    --onPrimary:var(--secondary);
+    --onSecondary:var(--surface);
+    --light-text: #f0dee1;
+    /* --light-text: #eaf0f3; */
+    --site-width: 75%;
+    --site-max-width: 1100px;
+    --particles-color1: #2ca5eb;
+    --particles-color2: #f02054;
+    --particles-color3: #75081f;
+}
