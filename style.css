@@ -418,10 +418,6 @@ body .shade,
     border-radius: 100%;
 }
 
-/* .skill li:nth-child(odd){
-    background: #eef7f8;
-} */
-
 .scroll-top{
     position: fixed;
     bottom:50px;
