@@ -115,7 +115,7 @@
       </div>
     </header>
     <main>
-      <section data-aos="fade-up" id="skills-section" class="skills-section">
+      <section data-aos="zoom-in" id="skills-section" class="skills-section">
         <div class="skills-wrapper">
           <div class="skills-tittles">
             <h2 class="tittle-right">Skills & Experiences</h2>
@@ -262,7 +262,7 @@
           <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </a>
       </section>
-      <section data-aos="fade-up" class="projects" id="projects">
+      <section data-aos="zoom-in" class="projects" id="projects">
         <div class="projects-wrapper">
           <div class="wide-card">
             <div class="left">
@@ -397,7 +397,7 @@
         </div>
       </section>
 
-      <section data-aos="fade-up" class="contact-me" id="contact-me">
+      <section data-aos="zoom-in" class="contact-me" id="contact-me">
         <div class="contact-wrapper">
           <div class="contact-info">
             <div class="heading">
@@ -455,7 +455,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration: 2000,
+        duration: 3000,
+        debounceDelay: 50,
+        once: false,
+        mirror: true,
       });
     </script>
   </body>
