@@ -18,11 +18,5 @@
     --particles-color2: #f02054;
 }
 
-body{
-    color: var(--light-text);
-}
 
-footer {
-    background-color: var(--background);
-    color: var(--light-text);
-}
+

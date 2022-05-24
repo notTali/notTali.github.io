@@ -90,54 +90,58 @@ html{
 }
 
 body{
+    /* font-size: 0.8rem; */
+    color: var(--light-text);
     position: relative;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: var(--background-even);
 }
 
 .social-links i{
-    color: var(--secondary);
+    color: var(--primary);
+    font-size: 4rem;
+    margin-left: 20px;
 }
 
 .social-links{
-    
     z-index: 10;
     position: fixed;
     padding: 0px;
     top: 45%;
-    right: 5%;
+    right: 0%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;    
-    width: 200px;
-}
-
-.social-links i{
-    font-size: 3rem;
+    width: 120px;
 }
 
 .social-links li{
-    color: var(--secondary);
-    /* width: 0px; */
+    padding: 8px;
+    border-radius: 10px;
+    color: var(--primary);
+    width: 0px;
     display: flex; 
     justify-content: flex-end;
     align-items: center;
     /* padding: 0px; */
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     transition-property: width;
-    transition-duration: 5s;
-    transition-delay: 2s;
-    
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
 }
 
 .social-links li p{
     display: none;
 }
 
+.social-links li:hover p {
+    display: block;
+}
+
 .social-links li:hover{
     /* justify-content: flex-start; */
-    width: 200px;
-    background-color: #ffffff;
+    width: 170px;
+    background-color: var(--card-bg-color);
 }
 
 /* Remove style from all uls */
@@ -485,7 +489,7 @@ body .shade,
     bottom:50px;
     left: 50px;
     padding: 20px 24px;
-    background-color: #eaeef0;
+    background-color: var(--card-bg-color);
     font-size: 1.2rem;
     color: var(--secondary);
     border-radius: 100%;
@@ -570,7 +574,7 @@ body .shade,
 }
 .left i{
     padding-right: 20px;
-    font-size: 3rem;
+    font-size: 1.8rem;
     color: var(--secondary);
 }
 
@@ -589,7 +593,7 @@ body .shade,
 
 .btn i{
     padding-right: 10px;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .heading{
@@ -1465,15 +1469,13 @@ textarea{
 
 */
 
-
-
-footer{
-    /* background-color: var(--secondary); */
-    text-align: center;
-    /* color: var(--background); */
-    padding: 50px 20px;
-}
-
 footer i{
     color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--background);
+    color: var(--light-text);
 }
