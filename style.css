@@ -27,6 +27,7 @@
     flex-direction: column;
     width: fit-content;
     justify-content: center;
+    /* transform: scale(0.9); */
 }
 
 .my-logo>.circles {
@@ -225,7 +226,8 @@ nav > h1{
     margin-left: 20px;
 }
 .nav-list > a > li > h3{
-    font-size: 0.9rem;
+    font-size: 0.5rem;
+    font-weight: 400;
 }
 
 /* Contact number */
