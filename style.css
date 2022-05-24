@@ -433,7 +433,6 @@ body .shade,
 }
 
 .projects{
-    /* transition: 1.5s; */
     background-color: var(--background-odd);
     /* padding: 120px 0px; */
     padding: 0px;
