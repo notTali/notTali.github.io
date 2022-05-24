@@ -64,6 +64,10 @@
     align-items: center;
 }
 
+.not > p{
+    color: var(--secondary);
+}
+
 .my-logo>h1 {
     font-size: 1.4rem;
     letter-spacing: 5px;
