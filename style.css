@@ -66,7 +66,7 @@
 }
 
 .not > p{
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .my-logo>h1 {
@@ -226,11 +226,16 @@ nav > h1{
     margin-left: 20px;
 }
 .nav-list > a > li{
-    color: var(--secondary);
+    color: var(--primary);
     margin-left: 20px;
 }
+
+.nav-list > a > li:hover{
+    color: var(--secondary);
+}
+
 .nav-list > a > li > h3{
-    font-size: 0.5rem;
+    /* font-size: 0.5rem; */
     font-weight: 400;
 }
 
