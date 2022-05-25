@@ -91,7 +91,7 @@ html{
 
 body{
     /* font-size: 0.8rem; */
-    color: var(--light-text);
+    color: var(--secondary);
     position: relative;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: var(--background-even);
@@ -241,7 +241,7 @@ nav > h1{
 
 /* Contact number */
 .nav-list > a > .call > i {
-    color: var(--primary);
+    color: var(--background);
 }
 
 .nav-list > a > .call{
@@ -259,7 +259,7 @@ nav > h1{
 }
 
 .nav-list > a > .call > h3 {
-    color: var(--primary);
+    color: var(--background);
 }
 
 body .shade,
@@ -366,7 +366,7 @@ body .shade,
 .buttons > a {
     
     background-color: var(--secondary);
-    color: var(--surface);
+    color: var(--background);
     padding: 8px 50px;
     border-radius: 20px;
     font-weight: 300;
@@ -374,7 +374,7 @@ body .shade,
 
 .buttons > a > i{
     padding-right: 8px;
-    color: var(--primary);
+    color: var(--background);
 }
 
 /* Main */

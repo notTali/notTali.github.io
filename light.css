@@ -2,7 +2,7 @@
     --background: #e0e5e6;
     --background-odd: rgb(206, 211, 210);
     --background-even: var(--background-odd);
-    --card-bg-color: #b3b8b9;
+    --card-bg-color: #c3c6c7;
     /* --surface: #531c06; */
     --home-bg-color:s rgba(236, 252, 249s);
     --primary: var(--light-text);
