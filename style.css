@@ -194,7 +194,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 7%;
+    padding: 0px 7%;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     background-color: var(--background);
     z-index: 10;
@@ -249,7 +249,7 @@ nav > h1{
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--secondary);
-    padding: 5px 20px;
+    padding: 0px 20px;
     margin-left: 20px;
     border-radius: 8px;
 }
@@ -1135,7 +1135,7 @@ textarea{
     }
 
     nav{
-        padding: 10px 25px;
+        padding: 0px 25px;
         
     }
 
@@ -1239,7 +1239,7 @@ textarea{
 }
 
 .fa-bars{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: var(--secondary);
 }
 
@@ -1303,7 +1303,7 @@ textarea{
     }
 
     nav{
-        padding: 10px 25px;
+        /* padding: 0px 25px; */
         margin-top: 0px;
         top: 0;
         left: 0;
