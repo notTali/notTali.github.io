@@ -9,13 +9,15 @@ window.onload = function() {
     });
 };
 
-const main_menu = document.querySelector("#top-menu-bars");
+const switch_theme = document.getElementById("switch");
+const main_menu = document.querySelector("#top-bars");
 const nav_drawer = document.querySelector(".nav-drawer");
 const nav_hider = document.querySelector(".shade");
 const body = document.querySelector("body");
 const anchor = nav_drawer.querySelectorAll(".nav-list > a");
 
 // Hide the nav at start
+// switch_theme.style.display = "none"
 nav_drawer.style.display = "none";
 nav_hider.style.display = "none";
 var isOpen = false;
