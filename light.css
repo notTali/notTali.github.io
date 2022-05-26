@@ -11,11 +11,14 @@
     --onSurface: var(--secondary);
     --onPrimary: var(--secondary);
     --onSecondary: var(--surface);
-    --light-text: #b82035;
+    --light-text: #b82034;
     --site-width: 75%;
     --site-max-width: 1100px;
     --particles-color1: #2ca5eb;
     --particles-color2: #f02054;
+
+    --social-link-color: rgb(5, 81, 133);
+    --body-text-color: rgb(46, 58, 73);
     --card-shadow-color: rgb(184, 184, 184);
     --thinCard--btn--color: rgb(196, 238, 255);
 }

@@ -27,8 +27,8 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
     />
 
-    <link rel="stylesheet" href="dark.css">
-    <link rel="stylesheet" href="light.css">
+    <link id="theme-switcher" rel="stylesheet" type="text/css" href="light.css">
+    <!-- <link rel="stylesheet" href="light.css"> -->
     <link rel="stylesheet" href="style.css" />
     
     <title>Talifhani Mulaudzi</title>
@@ -58,10 +58,10 @@
       <div class="theming">
         <p>Change Theme</p>
         <div>
-          <div class="circle dark"></div>
-          <div class="circle light"></div>
-          <div class="circle purple"></div>
-          <div class="circle blue"></div>
+          <div data-theme="dark" id="dark" class="circle dark"></div>
+          <div data-theme="light" id="light" class="circle light"></div>
+          <div data-theme="purple" id="purple" class="circle purple"></div>
+          <div data-theme="blue" id="blue" class="circle blue"></div>
         </div>
       </div>
     </div>

@@ -89,17 +89,22 @@ html{
     margin: 0px;
 }
 
+body *{
+    transition: 0.3s;
+}
+
 body{
+    
     /* font-size: 0.8rem; */
-    color: var(--secondary);
+    color: var(--body-text-color);
     position: relative;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: var(--background-even);
 }
 
 .social-links i{
-    color: var(--primary);
-    font-size: 4rem;
+    color: var(--social-link-color);
+    font-size: 2rem;
     margin-left: 20px;
 }
 
@@ -524,6 +529,7 @@ body .shade,
     ;
     align-items: flex-end;
     grid-row-gap: 60px;
+    /* position: relative; */
     
 }
 
@@ -567,8 +573,8 @@ body .shade,
     padding: 20px;
     position: absolute;
     top: -3.5%;
-    left: 20%;
-    right: 20%;
+    left: 12.5%;
+    right: 12.5%;
     border-radius: 10px;
     /* box-shadow: 0px 0px 2px 0px var(--secondary); */
 
@@ -617,7 +623,7 @@ body .shade,
 .card{
     /* border: 2px solid #1C3342; */
     background-color: var(--card-bg-color);
-    box-shadow: 0px 0px 20px 0px var(--card-shadow-color);
+    box-shadow: 0px 0px 10px 0px var(--card-shadow-color);
     width: 300px;
     padding: 15px 0px 0px 0px;
     border-radius: 5px;
@@ -639,7 +645,7 @@ body .shade,
 }
 
 .card-wrapper .card:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .card > div{
@@ -779,6 +785,7 @@ body .shade,
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--card-bg-color);
+    box-shadow: 0px 0px 5px 0px var(--card-shadow-color);
     border-radius: 5px;
 }
 
@@ -868,8 +875,7 @@ textarea{
     /* Wide card */
     .wide-card{
         top: -3.5%;
-        left: 12.5%;
-        right: 12.5%;
+        
     }
 
    /* Projects */
@@ -899,8 +905,8 @@ textarea{
     /* Wide card */
     .wide-card{
         top: -2%;
-        left: 12.5%;
-        right: 12.5%;
+        /* left: 0%;
+        right: 0%; */
         padding: 10px 20px;
     }
 
@@ -1143,9 +1149,11 @@ textarea{
 
     /* Wide card */
     .wide-card {
-        right: 0%;
-        left: 0%;
+        right: 0;
+        left: 0;
         top: -1,4%;
+        border-radius: 0px;
+        margin: 0px;
         padding-right: 30px;
     }
 
@@ -1246,8 +1254,9 @@ textarea{
 }
 
 
+
 /* Samsung Galaxy A51/71 */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
     
     :root{
         --site-width: 90%;
@@ -1423,14 +1432,21 @@ textarea{
 }
 
 /* iPhone SE */
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 390px) {
     .header-content{
         flex-direction: column-reverse;
     }
-
+    .welcome h3{
+        font-size: 0.9rem;
+    }
     .intro h1{
         padding: 0% 0px;
-        font-size: 2.6rem;
+        font-size: 2rem;
+    }
+
+    .intro p{
+        /* padding: 0% 0px; */
+        font-size: 0.9rem;
     }
 
     .skill li{
@@ -1484,5 +1500,5 @@ footer {
     text-align: center;
     padding: 50px 20px;
     background-color: var(--background);
-    color: var(--light-text);
+    color: var(--secondary);
 }
