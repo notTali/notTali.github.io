@@ -69,14 +69,17 @@
     height: 20px;
     border-radius: 100%;
     margin: 5px;
+    
 }
 
 .dark {
     background-color: black;
+    border: 2px solid white;
 }
 
 .light {
     background-color: white;
+    border: 2px solid black;
 }
 
 .purple {
@@ -221,6 +224,7 @@ nav{
 #top-menu-bars{
     display: none;
 }
+
 
 
 nav > h1{
@@ -384,7 +388,7 @@ body .shade,
     background-color: var(--secondary);
     color: var(--background);
     padding: 8px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: 300;
 }
 
@@ -1145,7 +1149,14 @@ textarea{
         --site-width: 90%;
     }
     #top-menu-bars{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+    }
+    .switch{
+        margin-right: 0.5rem;
+        display: flex;
     }
    
     .nav-wrapper{
@@ -1271,9 +1282,9 @@ textarea{
         font-size: 1rem;
     }
 
-    #top-menu-bars{
+    /* #top-menu-bars{
         display: block;
-    }
+    } */
 
     .scroll-top{
         bottom: 120px;
