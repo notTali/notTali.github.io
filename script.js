@@ -4,7 +4,7 @@ window.onload = function() {
       color: ['#b1dcf5','#f5b1c2'],
       connectParticles: true,
       maxParticles: 50,
-      // sizeVariations: 10,
+      sizeVariations: 5,
       speed: 0.7,
     });
 };
@@ -39,7 +39,7 @@ main_menu.addEventListener("click", function(){
 });
 
 
-console.log(isOpen);
+// console.log(isOpen);
 // When user click on any anchor tag, close the drawer
 for (const a in anchor) {
   //console.log("equal");

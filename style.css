@@ -1,23 +1,8 @@
 /* Website Variables for the default theme*/
-/* :root{
-    --background: #FFFFFF;
-    --background-odd: #eff1f1;
-    --card-bg-color: #dadde8;
-    --surface: #DAE4E8;
-    --home-bg-color: rgb(218, 228, 232,0.3);
-    --primary: #5FD1D4;
-    --secondary: #1C3342;
-    --onBackground: var(--secondary);
-    --onSurface:var(--secondary);
-    --onPrimary:var(--secondary);
-    --onSecondary:var(--surface);
-    --light-text: #506068;
+:root{
     --site-width: 75%;
     --site-max-width: 1100px;
-    --particles-color1: #b1dcf5;
-    --particles-color2: #f5b1c2;
-    --particles-color3: #f36281;
-} */
+}
 
 
 
@@ -77,6 +62,32 @@
 
 /* logo code ends here */
 
+
+/* Theme circles */
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.dark {
+    background-color: black;
+}
+
+.light {
+    background-color: white;
+}
+
+.purple {
+    background-color: #770286;
+}
+
+.blue {
+    background-color: var(--primary);
+}
+
+/* END.... */
 
 
 html{
@@ -245,11 +256,11 @@ nav > h1{
 }
 
 /* Contact number */
-.nav-list > a > .call > i {
+.nav-list > .call > i {
     color: var(--background);
 }
 
-.nav-list > a > .call{
+.nav-list > .call{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -259,11 +270,11 @@ nav > h1{
     border-radius: 8px;
 }
 
-.nav-list > a > .call > i {
+.nav-list > .call > i {
     padding-right: 10px;
 }
 
-.nav-list > a > .call > h3 {
+.nav-list > .call > h3 {
     color: var(--background);
 }
 
@@ -847,7 +858,7 @@ textarea{
         font-size: 1rem;
     }
 
-    .nav-list > a > .call{
+    .nav-list > .call{
         font-size: 1rem;
         padding: 2px 16px;
     }
@@ -960,7 +971,7 @@ textarea{
         font-size: 0.9rem;
     }
 
-    .nav-list > a > .call{
+    .nav-list > .call{
         font-size: 0.9rem;
         padding: 2px 16px;
     }
@@ -1082,6 +1093,11 @@ textarea{
         text-align: center;
         width: 100%;
     }
+    .nav-list > .call{
+        margin: 0px;
+        text-align: center;
+        width: fit-content;
+    }
 
     .name-logo > h1{
         font-size: 2.5rem;
@@ -1109,11 +1125,11 @@ textarea{
         margin: 0px;
         margin: 0px 20px;
         margin-top: 10px;
-        margin-right: 30px;
+        /* margin-right: 30px; */
         justify-content: center;
     }
 
-    /* .nav-list > a > .call{
+    /* .nav-list > .call{
         margin-top: 100px;
     } */
 
@@ -1176,24 +1192,7 @@ textarea{
         justify-content: center;
 
     }
-    .circle{
-        width: 20px;
-        height: 20px;
-        border-radius: 100%;
-        margin: 5px;
-    }
-    .dark{
-        background-color: var(--secondary);
-    }
-    .light{
-        background-color: var(--background);
-    }
-    .purple{
-        background-color: #770286;
-    }
-    .blue{
-        background-color: var(--primary);
-    }
+    
 
 }
 
