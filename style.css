@@ -561,7 +561,7 @@ body .shade,
     grid-area: filter-menu;
     display: flex;
     flex-wrap: nowrap;
-    background-color: var(--background);
+    background-color: var(--background-even);
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -589,9 +589,10 @@ body .shade,
 }
 
 .wide-card .btn{
+    color: var(--background-odd);
     display: flex;
     align-items: center;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     padding: 5px 25px;
     border-radius: 25px;
 }

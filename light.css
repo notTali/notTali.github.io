@@ -1,8 +1,8 @@
 :root {
     --background: #e4e4e4;
-    --background-odd: rgb(243, 243, 243);
+    --background-odd: #f7f7f7;
     --background-even: var(--background-odd);
-    --card-bg-color: #e0e0e0;
+    --card-bg-color: #e6e6e6;
     /* --surface: #531c06; */
     --home-bg-color:s rgba(236, 252, 249s);
     --primary: var(--light-text);
