@@ -561,16 +561,16 @@ body .shade,
     grid-area: filter-menu;
     display: flex;
     flex-wrap: nowrap;
-    background-color: var(--card-bg-color);
+    background-color: var(--thinCard--btn--color);
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     position: absolute;
     top: -3.5%;
-    left: 25%;
-    right: 25%;
+    left: 0%;
+    right: 0%;
     border-radius: 10px;
-    box-shadow: 0px 0px 2px 0px var(--secondary);
+    /* box-shadow: 0px 0px 2px 0px var(--secondary); */
 
 }
 .wide-card .left{
