@@ -15,19 +15,21 @@
     --particles-color1: #2ca5eb;
     --particles-color2: #f02054;
 
-
-    --first-border-line: #095ac5;
+    --home-button-color: rgb(9, 58, 8);
+    --first-border-line: rgb(0, 0, 0);
     --second-border-line: #095ac5;
 
-    
+
+
+    --white-text: #c6d0d3;
     --primary: #8ea3aa;
     --secondary: #064699;
     --nav-items-color: #8ea3aa;
     --social-link-color: rgb(5, 81, 133);
     --body-text-color: rgb(161, 159, 159);
     --card-bg-color: #202122;
-    /* --card-shadow-color: #aa0a0a; */
-    --thinCard--btn--color: rgb(1, 103, 143);
+    --card-shadow-color: rgb(19, 20, 20);
+    --thinCard--btn--color: rgb(18, 22, 24);
 
     --w-color: rgb(97, 201, 94);
     --r-color: rgb(90, 72, 253);

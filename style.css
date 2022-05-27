@@ -262,14 +262,14 @@ nav > h1{
 
 /* Contact number */
 .nav-list > .call > i {
-    color: var(--background);
+    color: var(--white-text);
 }
 
 .nav-list > .call{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--secondary);
+    background-color: var(--home-button-color);
     padding: 0px 20px;
     margin-left: 20px;
     border-radius: 8px;
@@ -280,7 +280,7 @@ nav > h1{
 }
 
 .nav-list > .call > h3 {
-    color: var(--background);
+    color: var(--white-text);
 }
 
 body .shade,
@@ -386,8 +386,8 @@ body .shade,
 
 .buttons > a {
     
-    background-color: var(--secondary);
-    color: var(--background);
+    background-color: var(--home-button-color);
+    color: var(--white-text);
     padding: 8px 50px;
     border-radius: 10px;
     font-weight: 300;
@@ -395,7 +395,7 @@ body .shade,
 
 .buttons > a > i{
     padding-right: 8px;
-    color: var(--background);
+    color: var(--white-text);
 }
 
 /* Main */
@@ -612,7 +612,7 @@ body .shade,
 }
 
 .wide-card .btn{
-    color: var(--background-odd);
+    color: var(--white-text);
     display: flex;
     align-items: center;
     background-color: var(--secondary);
@@ -676,7 +676,7 @@ body .shade,
 .card > div > h3{
     /* padding: 0; */
     /* border: 2px solid #5FD1D4; */
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .card > div > ul{

@@ -17,16 +17,18 @@
     --particles-color2: #fd003f;
 
     
-
-    --first-border-line: #aa0a0a;
+    --home-button-color: rgb(54, 145, 51);
+    --first-border-line: rgb(18, 19, 18);
     --second-border-line: #095ac5;
+
+    --white-text: #e9f1f3;
     --primary: #0b2f50;
     --secondary: #0b2f50;
     --nav-items-color: #042544;
     --social-link-color: #0b2f50;
     --body-text-color: rgb(46, 58, 73);
     --card-shadow-color: rgb(216, 229, 231);
-    --thinCard--btn--color: rgb(196, 238, 255);
+    --thinCard--btn--color: rgb(215, 242, 253);
 
     /* logo */
     --w-color: rgb(61, 187, 57);
