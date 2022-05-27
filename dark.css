@@ -2,11 +2,10 @@
     --background: #000000;
     --background-odd: #101113;
     --background-even: var(--background-odd);
-    --card-bg-color: #181b1d;
+    
     /* --surface: #531c06; */
-    /* --home-bg-color: rgba(0, 0, 0, 0.5); */
-    --primary: var(--light-text);
-    --secondary: #b82035;
+    --home-bg-color: rgba(0, 0, 0, 0.5);
+    
     --onBackground: #c4c70b;
     --onSurface:var(--secondary);
     --onPrimary:var(--secondary);
@@ -16,10 +15,25 @@
     --particles-color1: #2ca5eb;
     --particles-color2: #f02054;
 
+
+    --first-border-line: #095ac5;
+    --second-border-line: #095ac5;
+
+    
+    --primary: #8ea3aa;
+    --secondary: #064699;
+    --nav-items-color: #8ea3aa;
     --social-link-color: rgb(5, 81, 133);
-    --body-text-color: rgb(46, 58, 73);
-    --card-shadow-color: rgb(184, 184, 184);
-    --thinCard--btn--color: rgb(196, 238, 255);
+    --body-text-color: rgb(161, 159, 159);
+    --card-bg-color: #202122;
+    /* --card-shadow-color: #aa0a0a; */
+    --thinCard--btn--color: rgb(1, 103, 143);
+
+    --w-color: rgb(97, 201, 94);
+    --r-color: rgb(90, 72, 253);
+    --b-color: #aa0a0a;
+    --not-color: #fff;
+    --h1-color: #8ea3aa;
 }
 
 
