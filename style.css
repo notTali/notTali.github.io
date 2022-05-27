@@ -813,7 +813,7 @@ body .shade,
 }
 
 .contact-form div label{
-    color: var(--secondary);
+    color: var(--form-label-color);
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 1.15rem;
@@ -823,7 +823,7 @@ body .shade,
 }
 
 .contact-form div input, textarea{
-    color: var(--secondary);
+    color: var(--form-label-color);
     border: none;
     border-radius: 5px;
     height: 30px;
@@ -834,8 +834,10 @@ body .shade,
 }
 
 .contact-form div input:focus, textarea:focus{
-    color: var(--secondary);
+    color: var(--primary);
 }
+
+
 
 
 
@@ -847,8 +849,8 @@ textarea{
     width: fit-content;
     padding: 10px 70px;
     border: none;
-    background-color: var(--secondary);
-    color: var(--background);
+    background-color: var(--home-button-color);
+    color: var(--form-label-colort);
     border-radius: 8px;
 }
 
