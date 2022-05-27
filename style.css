@@ -31,17 +31,17 @@
 }
 
 .w {
-    background-color: var(--light-text);
+    background-color: var(--w-color);
     margin-left: 8px;
 }
 
 .b {
-    background-color: var(--onBackground);
+    background-color: var(--b-color);
     margin: 0px 0px;
 }
 
 .r {
-    background-color: var(--secondary);
+    background-color: var(--r-color);
 }
 
 .not {
@@ -51,13 +51,14 @@
 }
 
 .not > p{
-    color: var(--primary);
+    color: var(--not-color);
 }
 
 .my-logo>h1 {
     font-size: 1.4rem;
     letter-spacing: 5px;
     text-align: center;
+    color: var(--h1-color);
 }
 
 /* logo code ends here */
@@ -246,7 +247,7 @@ nav > h1{
     margin-left: 20px;
 }
 .nav-list > a > li{
-    color: var(--primary);
+    color: var(--nav-items-color);
     margin-left: 20px;
 }
 
@@ -326,7 +327,7 @@ body .shade,
 
 .tittle-left{ 
     padding-left: 20px;
-    border-left: 8px solid var(--primary);
+    border-left: 8px solid var(--first-border-line);
     color: var(--secondary);
     font-weight: 600;
     letter-spacing: 2px;
@@ -341,7 +342,7 @@ body .shade,
 
 .subtittle-left{ 
     padding-left: 20px;
-    border-left: 8px solid var(--secondary);
+    border-left: 8px solid var(--second-border-line);
     color: var(--light-text);
     font-weight: 500px;
     line-height: 40px;
@@ -467,7 +468,7 @@ body .shade,
 
 .tittle-right{ 
     padding-right: 20px;
-    border-right: 8px solid var(--primary);
+    border-right: 8px solid var(--first-border-line);
     color: var(--secondary);
     font-weight: 600;
     letter-spacing: 2px;
@@ -477,7 +478,7 @@ body .shade,
 
 .subtittle-right{ 
     padding-right: 20px;
-    border-right: 8px solid var(--secondary);
+    border-right: 8px solid var(--second-border-line);
     color: var(--light-text);
     font-weight: 500px;
     line-height: 40px;
@@ -590,6 +591,7 @@ body .shade,
     top: -3.5%;
     left: 12.5%;
     right: 12.5%;
+    /* max-width: var(--site-max-width); */
     border-radius: 10px;
     /* box-shadow: 0px 0px 2px 0px var(--secondary); */
 
@@ -851,6 +853,13 @@ textarea{
 }
 
 /* Media Queries */
+@media screen and (min-width: 1601px) {
+    .wide-card{
+        left: 20%;
+        right: 20%;
+    }
+}
+
 @media screen and (max-width: 1600px) {
     
     /* Navigation Bar */
