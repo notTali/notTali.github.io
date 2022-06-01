@@ -40,8 +40,6 @@ main_menu.addEventListener("click", function(){
   //stopScroll();
 });
 
-
-// console.log(isOpen);
 // When user click on any anchor tag, close the drawer
 for (const a in anchor) {
   //console.log("equal");
