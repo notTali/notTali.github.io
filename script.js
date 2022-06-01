@@ -76,15 +76,6 @@ const  stopScroll = function (){
   body.style.margin = "0";
 }
 
-
-// html,
-//     body {
-//         margin: 0;
-//         height: 100%;
-//         overflow: hidden
-//     }
-
-
 // Theme switching:
 let themeValue = localStorage.getItem("theme");
 if (themeValue == null){
