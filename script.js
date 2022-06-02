@@ -22,7 +22,7 @@ nav_drawer.style.display = "none";
 nav_hider.style.display = "none";
 var isOpen = false;
 
-//If the shadow is clicked, hide the nav
+//If the shadow is clicked, hide the nav.
 nav_hider.addEventListener("click", () =>{
   nav_drawer.style.display = "none";
   nav_hider.style.display = "none";
