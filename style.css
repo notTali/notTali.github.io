@@ -311,7 +311,6 @@ body .shade,
 .picture{
     display: none;
     grid-area: picture;
-    /* position: relative; */
     padding: 0px;
     background: url(./assets/i13.png) right / contain no-repeat;   
 }
