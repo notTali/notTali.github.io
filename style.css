@@ -292,7 +292,6 @@ body .shade,
     display: flex;
     justify-content: center;
     text-align: center;
-    /* grid-template-columns: 1fr; 1fr 1fr to show the picture */
     grid-area: header-content;
    
     transition-property: grid-template-columns;
