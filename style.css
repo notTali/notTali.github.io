@@ -196,9 +196,9 @@ a {
     display: grid;
     grid-template-areas:
         "header-content";
-    background: url(./assets/circle-scatter.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(./assets/circle-scatter.svg) right / cover no-repeat;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     /*  background-size: 80% 80%;
     /* background-position: bottom; 
     background-position-x: right;
