@@ -17,6 +17,7 @@
 .my-logo>.circles {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .circles {
@@ -25,8 +26,8 @@
 
 .circles>div {
     width: 10px;
-    height: 10px;
-    border-radius: 100%;
+    height: 5px;
+    /* border-radius: 100%; */
 }
 
 .w {
