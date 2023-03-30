@@ -278,7 +278,7 @@ nav>h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--home-button-color);
+    background-color: var(--primary);
     padding: 0px 20px;
     margin-left: 20px;
     border-radius: 8px;
