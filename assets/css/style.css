@@ -1096,7 +1096,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #e5fbe5;
   min-height: 60vh;
 }
 
@@ -1166,7 +1166,7 @@ form .message textarea {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  background: #e5fbe5;
 }
 
 .field input::placeholder,
@@ -1177,12 +1177,12 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid rgb(3, 167, 17);
 }
 
 .field input:focus~i,
 .message textarea:focus~i {
-  color: rgb(115, 3, 167);
+  color: rgb(3, 167, 17);
 }
 
 form .message {
@@ -1223,14 +1223,14 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #06ad06;
+  box-shadow: 0px 5px 10px rgba(48, 247, 74, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 
 .button-area button:hover {
-  background: #421cecf5;
+  background: #1cec2df5;
 }
 
 .button-area span {
@@ -1283,7 +1283,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 43, 6);
+  background: rgb(13, 19, 14);
 }
 
 .footer .box-container {
