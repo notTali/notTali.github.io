@@ -419,7 +419,7 @@ header .navbar ul li a:hover {
 
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #ffae00;
+  color: #10bb00;
 }
 
 .footer .box-container .box a {
@@ -430,7 +430,7 @@ header .navbar ul li a:hover {
 }
 
 .footer .box-container .box a:hover {
-  color: #ffae00;
+  color: #10bb00;
 }
 
 .footer .box-container .box .share {
@@ -449,7 +449,7 @@ header .navbar ul li a:hover {
   margin-right: 1rem;
   transition: .2s;
   background: rgb(230, 230, 230);
-  color: #02094b;
+  color: #084b02;
   border: none;
 }
 
@@ -457,7 +457,7 @@ header .navbar ul li a:hover {
   background: transparent;
   transform: scale(0.98);
   border: .1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: #10bb00;
 }
 
 .footer .credit {
@@ -471,7 +471,7 @@ header .navbar ul li a:hover {
 }
 
 .footer .credit a {
-  color: #ffae00;
+  color: #10bb00;
 }
 
 .footer .fa {

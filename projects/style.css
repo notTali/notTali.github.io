@@ -58,7 +58,7 @@ header {
   padding: 1.7rem 10%;
   height: 6.5rem;
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, .3);
+  box-shadow: 0 1px 4px rgba(146, 176, 146, 0.3);
 }
 
 section {
@@ -74,14 +74,14 @@ section {
 }
 
 .heading span {
-  color: rgb(115, 3, 167);
+  color: rgb(8, 167, 3);
 }
 
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0E2431;
+  color: #12310e;
 }
 
 header .logo i {
@@ -89,7 +89,7 @@ header .logo i {
 }
 
 header .logo:hover {
-  color: #fc8c05;
+  color: #10bb00;
 }
 
 header .navbar ul {
@@ -105,7 +105,7 @@ header .navbar li {
 
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0E2431;
+  color: #11310e;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -113,8 +113,8 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #10bb00;
+  border-bottom: .2rem solid #10bb00;
   padding: .5rem 0;
 }
 
@@ -124,7 +124,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: rgb(4, 63, 2);
   display: none;
 }
 
@@ -141,7 +141,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #0e3111;
   }
 
   header .navbar ul {
@@ -170,7 +170,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: .5rem;
-    border-bottom: .5rem solid #011aff;
+    border-bottom: .5rem solid #01ff2b;
   }
 
   .fa-times {
@@ -187,7 +187,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #010136, #00003a);
+  background: linear-gradient(to bottom, #053601, #003a00);
   margin-top: 5rem;
 }
 
@@ -197,7 +197,7 @@ header .navbar ul li a:hover {
 }
 
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: rgb(2, 194, 27);
 }
 
 .work .button-group {
@@ -274,7 +274,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #10bb00;
 }
 
 .work .box-container .box .content .tag h3 {
@@ -315,7 +315,7 @@ header .navbar ul li a:hover {
 }
 
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #0ae015f5;
 }
 
 @media screen and (max-width: 450px) {
@@ -348,7 +348,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   color: #fff;
   border: 2px solid #fff;
-  box-shadow: 0px 2px 4px rgba(48, 68, 247, .3);
+  box-shadow: 0px 2px 4px rgba(48, 247, 58, 0.3);
   text-align: center;
 }
 
