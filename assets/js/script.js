@@ -92,14 +92,32 @@ async function fetchData(type = "skills") {
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
+
+    // <div class="bar">
+    //           <div class="info">
+    //             <img src=${skill.icon} alt="skill" />
+    //             <span>${skill.name}</span>
+    //           </div>
+    //         </div>
+
     skills.forEach(skill => {
         skillHTML += `
-        <div class="bar">
-              <div class="info">
+        
+        <div class="ag-courses_item">
+          <a href="#" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+
+            <div>
+                <div class="ag-courses-item_title">
+                ${skill.name}
+                </div>
                 <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
+            </div>
+            
+          </a>
+        </div>
+            
+            `
     });
     skillsContainer.innerHTML = skillHTML;
 }

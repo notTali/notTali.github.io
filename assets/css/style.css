@@ -1456,14 +1456,15 @@ form .button-area {
   align-items: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
 
   padding: 50px 0;
 }
 
 .ag-courses_item {
-  -ms-flex-preferred-size: calc(33.33333% - 30px);
-  flex-basis: calc(33.33333% - 30px);
-  width: 4rem;
+  /* -ms-flex-preferred-size: calc(33.33333% - 30px); */
+  /* flex-basis: calc(33.33333% - 30px); */
+  width: max-content !important;
 
   margin: 0 15px 30px;
 
@@ -1473,13 +1474,22 @@ form .button-area {
 }
 
 .ag-courses-item_link {
-  display: block;
+  display: flex;
   padding: 30px 20px;
-  background-color: #121212;
+  background-color: #0e140f;
+  justify-content: center;
+  align-items: center;
 
   overflow: hidden;
 
   position: relative;
+}
+
+.ag-courses-item_link>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
 }
 
 .ag-courses-item_link:hover,
@@ -1495,8 +1505,8 @@ form .button-area {
 }
 
 .ag-courses-item_title {
-  min-height: 45px;
-  margin: 0 0 25px;
+  /* min-height: 45px; */
+  margin: 0 0 1rem;
 
   overflow: hidden;
 
@@ -1526,8 +1536,8 @@ form .button-area {
 }
 
 .ag-courses-item_bg {
-  height: 128px;
-  width: 128px;
+  height: 100px;
+  width: 100px;
   background-color: #f9b234;
 
   z-index: 1;
@@ -1566,8 +1576,8 @@ form .button-area {
 
 @media only screen and (max-width: 979px) {
   .ag-courses_item {
-    -ms-flex-preferred-size: calc(50% - 30px);
-    flex-basis: calc(50% - 30px);
+    /* -ms-flex-preferred-size: calc(50% - 30px); */
+    /* flex-basis: calc(50% - 30px); */
   }
 
   .ag-courses-item_title {
@@ -1584,8 +1594,8 @@ form .button-area {
 
 @media only screen and (max-width: 639px) {
   .ag-courses_item {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    /* -ms-flex-preferred-size: 100%; */
+    /* flex-basis: 100%; */
   }
 
   .ag-courses-item_title {
