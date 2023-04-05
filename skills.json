@@ -46,5 +46,21 @@
     {
         "name": "Wix",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },
+    {
+        "name": "NextJs",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "Twilio",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "Dialogflow",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "ChartJs",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     }
 ]
