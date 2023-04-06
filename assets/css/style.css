@@ -380,6 +380,11 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
+  .home {
+    justify-content: center;
+    text-align: center;
+  }
+
   .home .btn {
     margin: 4rem 0;
   }
