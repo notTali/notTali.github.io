@@ -29,7 +29,7 @@
   {
     "name": "WhatsApp bot Dashboard",
     "desc": "A dashboard that graphycally present the data collected through the WhatApp bot. This is for analyzing and exporting the data into spreadsheets.",
-    "image": "dashboard",
+    "image": "wow",
     "category": "web",
     "links": {
       "code": "https://github.com/nottali"
