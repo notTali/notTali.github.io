@@ -387,7 +387,7 @@ header .navbar ul li a:hover {
 
   .home .btn {
     margin: 4rem 0;
-    align-items: center;
+    align-self: center;
   }
 
   .socials {
