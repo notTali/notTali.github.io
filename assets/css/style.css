@@ -292,7 +292,7 @@ header .navbar ul li a:hover {
   transition: 0.5s;
   color: #fff;
   background: #06ad1c;
-  box-shadow: 0px 5px 18px rgba(55, 247, 48, 0.6);
+  box-shadow: 0px 5px 18px rgba(55, 247, 48, 0.4);
   font-family: "Nunito", sans-serif;
 }
 
@@ -387,6 +387,7 @@ header .navbar ul li a:hover {
 
   .home .btn {
     margin: 4rem 0;
+    align-items: center;
   }
 
   .socials {
