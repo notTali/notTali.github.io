@@ -389,6 +389,8 @@ header .navbar ul li a:hover {
   .home .btn {
     margin: 4rem 0;
     align-self: center;
+    position: absolute;
+    left: 30%;
   }
 
   .socials {
@@ -404,6 +406,9 @@ header .navbar ul li a:hover {
   }
 
   .home .content {
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
   }
