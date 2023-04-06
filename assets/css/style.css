@@ -1660,7 +1660,10 @@ form .button-area {
   grid-gap: 10px;
   z-index: 100;
   background-color: white;
+  margin-top: 0.95rem;
+  box-shadow: 0 1px 4px rgba(147, 176, 146, 0.3);
   border-radius: 0px 0px 10px 10px;
+
 }
 
 .card img {
